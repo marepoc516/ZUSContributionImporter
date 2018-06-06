@@ -12668,11 +12668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\poma\\ZUSContributionImporter\\ZUSContributionImporter.csproj",
+      "projectUniqueName": "c:\\Users\\poma\\Documents\\Projects\\ZUSContributionImporter\\ZUSContributionImporter.csproj",
       "projectName": "ZUSContributionImporter",
-      "projectPath": "C:\\Users\\poma\\ZUSContributionImporter\\ZUSContributionImporter.csproj",
+      "projectPath": "c:\\Users\\poma\\Documents\\Projects\\ZUSContributionImporter\\ZUSContributionImporter.csproj",
       "packagesPath": "C:\\Users\\poma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\poma\\ZUSContributionImporter\\obj\\",
+      "outputPath": "c:\\Users\\poma\\Documents\\Projects\\ZUSContributionImporter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
