@@ -7,7 +7,8 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[Contributions](
+CREATE TABLE [dbo].[Contributions]
+(
 	[ContributionId] [int] IDENTITY(1,1) NOT NULL,
 	[ValidityBeginDate] [datetime] NOT NULL,
 	[ValidityEndDate] [datetime] NOT NULL,
@@ -21,7 +22,7 @@ CREATE TABLE [dbo].[Contributions](
 	[HealthInsuranceCost] [money] NOT NULL,
 	[HealthInsuranceTaxDeductible] [money] NOT NULL,
 	[TotalContribution] [money] NOT NULL,
- CONSTRAINT [PK_Contribution] PRIMARY KEY CLUSTERED 
+	CONSTRAINT [PK_Contribution] PRIMARY KEY CLUSTERED 
 (
 	[ContributionId] ASC
 )WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
