@@ -10,7 +10,7 @@ GO
 CREATE TABLE [dbo].[SynchronizationLogs]
 (
 	[SynchronizationLogId] [int] IDENTITY(1,1) NOT NULL,
-	[ValidityEndDate] [datetime] NOT NULL,
+	[ValidityStartDate] [datetime] NOT NULL,
 	[SynchronizationDate] [datetime] NOT NULL,
 	[IsSuccess] [bit] NOT NULL
 		CONSTRAINT [PK_SynchronizationLog] PRIMARY KEY CLUSTERED 
